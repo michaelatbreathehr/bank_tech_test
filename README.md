@@ -23,29 +23,29 @@ date || credit || debit || balance
 Minumum Requirements
 --------------------
 
-- When I view my account balance
-- As a new client
-- It displays an opening balance of 0
+When I view my account balance
+As a new client
+It displays an opening balance of 0
 
-- When I deposit 500 into my account
-- As an existing client with 0 balance
-- It displays a new balance of 500
+When I deposit 500 into my account
+As an existing client with 0 balance
+It displays a new balance of 500
 
-- when I withdraw 250 from account
-- As an existing client with a balance of 500
-- It displays a new balance of 250
+when I withdraw 250 from account
+As an existing client with a balance of 500
+It displays a new balance of 250
 
-- When I deposit 1000 into my account
-- As an existing client with a balance of 250
-- It displays a new balance of 1250
+When I deposit 1000 into my account
+As an existing client with a balance of 250
+It displays a new balance of 1250
 
 # Edge Case scenarios
 ---------------------
 
-- When I withdraw 250 from account
-- As an existing client with a balance of 200
-- It displays a message "insufficient funds to complete this request"
+when I withdraw 250 from account
+As an existing client with a balance of 200
+It displays a message "insufficient funds to complete this request"
 
-when I withdraw 1 from account
+When I withdraw 1 from my account
 As a new client with a balance of 0
 It displays a message "insufficient funds to complete this request"
