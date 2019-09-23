@@ -39,7 +39,7 @@ When I deposit 1000 into my account
 As an existing client with a balance of 250
 It displays a new balance of 1250
 
-# Edge Case scenarios
+Edge Case scenarios
 ---------------------
 
 when I withdraw 250 from account
@@ -49,3 +49,10 @@ It displays a message "insufficient funds to complete this request"
 When I withdraw 1 from my account
 As a new client with a balance of 0
 It displays a message "insufficient funds to complete this request"
+
+# Steps to create
+
+Created repo 
+Created README.md
+Created Gemfile - bundle init
+Added Gems - Rspec, simplecov, Rubocop
