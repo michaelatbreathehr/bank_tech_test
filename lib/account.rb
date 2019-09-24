@@ -1,5 +1,5 @@
 class Account
-
+	MINIMUM_BALANCE = 0
 	attr_reader :balance
 
   def initialize
@@ -11,6 +11,7 @@ class Account
 	end
 	
 	def withdraw(amount)
+		fail 'Not allowed to go overdraw' if @balance - amount <MINIMUM_BALANCE
 		@balance -= amount
 	end
 
