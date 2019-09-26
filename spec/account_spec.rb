@@ -30,4 +30,8 @@ describe Account do
     subject.deposit(50)
     expect(subject.transaction_log.count).to eq(1)
   end
+
+  it 'prints a statement' do
+    expect(subject.print_statement).to eq(1)
+  end
 end
