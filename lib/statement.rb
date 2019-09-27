@@ -1,7 +1,9 @@
-class Statement
+# frozen_string_literal: true
 
-  def initialize
-    @statement = []
-  end
-
-end
+# class Statement
+#
+#   def initialize
+#     @statement = []
+#   end
+#
+# end

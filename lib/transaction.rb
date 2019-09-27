@@ -1,9 +1,11 @@
-class Transaction
+# frozen_string_literal: true
 
-  def initialize(date, credit, debit, balance)
-    @date = date
-    @credit = credit
-    @debit = debit
-    @balance = balance
-  end
-end
+# class Transaction
+#
+#   def initialize(date, credit, debit, balance)
+#     @date = date
+#     @credit = credit
+#     @debit = debit
+#     @balance = balance
+#   end
+# end
